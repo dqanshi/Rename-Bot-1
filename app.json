@@ -21,7 +21,7 @@
     },
     "AUTH_USERS": {
       "description": "allow only pre-defined users to use this bot",
-      "value": "1266681279"
+      "value": "1287407305"
     },
     "TIME_LIMIT": {
       "description": "For time to next process",
