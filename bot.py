@@ -45,7 +45,7 @@ Hello {} , I'am a simple file or media rename bot with permanent thumbnail suppo
 <b><u>Show Thumbnail</u></b>
 ➠ Send /showthumb for view current thumbnail.
 
-Made by @FayasNoushad
+Made by @TeleRoid14
 """
 
 if __name__ == "__main__" :
@@ -77,7 +77,7 @@ async def start(bot, update):
         chat_id=update.chat.id,
         text=START_TEXT.format(update.from_user.mention),
         parse_mode="html", disable_web_page_preview=True,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ Channel ⚙', url='https://telegram.me/FayasNoushad'), InlineKeyboardButton('⚙ Group ⚙', url='https://telegram.me/FayasChat')]]),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⭕ Channel ⭕', url='https://telegram.me/TeleRoidGroup'), InlineKeyboardButton('🛑 Support 🛑', url='https://telegram.me/TeleRoid14')]]),
         reply_to_message_id=update.message_id
     )
 
@@ -104,7 +104,7 @@ async def save_photo(bot, update):
         )
         await bot.send_message(
             chat_id=update.chat.id,
-            text="Thumbnail Saved ✅ This Is Permanent",
+            text="This thumbnail saved permanently ✅",
             reply_to_message_id=update.message_id
         )
 
@@ -265,7 +265,7 @@ async def rename(bot, message):
                     video=new_file_name,
                     thumb=thumb_image_path,
                     caption=description,
-                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/FayasNoushad')]]),
+                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⭕ Join Updates Channel ⭕', url='https://telegram.me/TeleRoidGroup')]]),
                     reply_to_message_id=message.reply_to_message.message_id,
                     progress=progress_for_pyrogram,
                     progress_args=("<code>Downloaded Successfully! Now I am Uploading to Telegram...</code>", a, c_time)
@@ -278,7 +278,7 @@ async def rename(bot, message):
                     os.remove(thumb_image_path)
                 except:
                     pass
-                await bot.edit_message_text(text="<b>Thank you for Using Me</b>", chat_id=message.chat.id, message_id=a.message_id, disable_web_page_preview=True)
+                await bot.edit_message_text(text="<b>Thank you for Using Meh 🤨</b>", chat_id=message.chat.id, message_id=a.message_id, disable_web_page_preview=True)
                 return
             if "file" in file_type:
                 await bot.send_document(
@@ -286,7 +286,7 @@ async def rename(bot, message):
                     document=new_file_name,
                     thumb=thumb_image_path,
                     caption=description,
-                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/FayasNoushad')]]),
+                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⭕ Join Updates Channel ⭕', url='https://telegram.me/TeleRoid14')]]),
                     reply_to_message_id=message.reply_to_message.message_id,
                     progress=progress_for_pyrogram,
                     progress_args=("<code>Downloaded Successfully! Now I am Uploading to Telegram...</code>", a, c_time)
