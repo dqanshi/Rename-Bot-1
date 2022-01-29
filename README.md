@@ -18,7 +18,7 @@ License -> https://github.com/FayasNoushad/Rename-Bot/blob/main/LICENSE
 ### Deploy on Heroku
 
 <p align="left">
-  <a href="https://heroku.com/deploy?template=https://github.com/FayasNoushad/Rename-Bot">
+  <a href="https://heroku.com/deploy?template=https://github.com/dqanshi/Rename-Bot-1">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
   <a href="https://youtu.be/Yt20BOuUs-A">
@@ -29,7 +29,7 @@ License -> https://github.com/FayasNoushad/Rename-Bot/blob/main/LICENSE
 ### Deploy in your vps
 
 ```sh
-git clone https://github.com/FayasNoushad/Rename-Bot
+git clone https://github.com/dqanshi/Rename-Bot-1
 cd Rename-Bot
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
